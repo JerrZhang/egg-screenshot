@@ -1,0 +1,40 @@
+{
+  "name": "egg-screenshot",
+  "version": "1.0.3",
+  "description": "screenshot puppeteer",
+  "eggPlugin": {
+    "name": "screenshot"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "puppeteer": "^1.4.0"
+  },
+ 
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "libs"
+  ],
+  "ci": {
+    "version": "8, 9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-screenshot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-screenshot#readme",
+  "author": "jerremyzhang",
+  "license": "MIT"
+}
